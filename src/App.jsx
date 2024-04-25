@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import { Button } from "react-bootstrap";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -29,30 +30,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
 
-      <button type="button" className="btn btn-outline-primary">
-        Primary
-      </button>
-      <button type="button" className="btn btn-outline-secondary">
-        Secondary
-      </button>
-      <button type="button" className="btn btn-outline-success">
-        Success
-      </button>
-      <button type="button" className="btn btn-outline-danger">
-        Danger
-      </button>
-      <button type="button" className="btn btn-outline-warning">
-        Warning
-      </button>
-      <button type="button" className="btn btn-outline-info">
-        Info
-      </button>
-      <button type="button" className="btn btn-outline-light">
-        Light
-      </button>
-      <button type="button" className="btn btn-outline-dark">
-        Dark
-      </button>
+  <Button variant="danger">My RB Button</Button>
       <div className="row">
   <div className="col-sm-6 mb-3 mb-sm-0">
     <div className="card">
